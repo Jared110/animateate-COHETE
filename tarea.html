@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        
+        #contenedor{
+            width: 400px;
+            height: 200px;
+            background-color: black;
+            position: relative;
+            margin:0 auto;/*centrar el contendor*/
+            overflow: hidden;/*oculta todo lo que contiene*/
+        }
+        #cuadrito{  
+            width: 100px;
+            height: 100px;
+            
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 50px;
+            right: 0px;
+
+            animation: cuadrito 3s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #cuadrito img{
+             width: 100px;
+            height: 100px;
+            
+        }
+        @keyframes cuadrito{
+            from{
+                right: -100px;
+            }
+            to{
+                right: 500px;
+            }
+        }
+        #puntitos{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 20px;
+            left: 0px;
+
+            animation: puntitos 2s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos1{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 35px;
+            left: 0px;
+
+            animation: puntitos 2.6s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos2{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 45px;
+            left: 0px;
+
+            animation: puntitos 3.5s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos3{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 65px;
+            left: 0px;
+
+            animation: puntitos 6s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos4{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 5px;
+            left: 0px;
+
+            animation: puntitos 4.35s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos5{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 95px;
+            left: 0px;
+
+            animation: puntitos 8s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos6{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 10px;
+            left: 0px;
+
+            animation: puntitos 5.5s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos7{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 120px;
+            left: 0px;
+
+            animation: puntitos 3.76s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos8{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 180px;
+            left: 0px;
+
+            animation: puntitos 9s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos9{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 195px;
+            left: 0px;
+
+            animation: puntitos 6.5s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }#puntitos10{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 75px;
+            left: 0px;
+
+            animation: puntitos 1.5s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+        #puntitos11{
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            position: absolute;/*Obligatorio para mover el div*/
+            top: 165px;
+            left: 0px;
+
+            animation: puntitos 1s infinite;
+            animation-timing-function: linear;/*define la forma de moverse*/
+        }
+         @keyframes puntitos{
+            from{
+                left: -100px;
+            }
+            to{
+                left: 500px;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id="puntitos"></div>
+            <div id="puntitos1"></div>
+            <div id="puntitos2"></div>
+            <div id="puntitos3"></div>
+            <div id="puntitos4"></div>
+            <div id="puntitos5"></div>
+            <div id="puntitos6"></div>
+            <div id="puntitos7"></div>
+            <div id="puntitos8"></div>
+            <div id="puntitos9"></div>
+            <div id="puntitos10"></div>
+            <div id="puntitos11"></div>
+            <div id="cuadrito">
+
+                <img src="img/cohete.gif" />
+                
+            </div> 
+        </div>   
+    </body>
+</html>
